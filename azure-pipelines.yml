@@ -12,4 +12,4 @@ pool:
 steps:
 - task: CMake@1
   inputs:
-    cmakeArgs: '--config Release'
+    cmakeArgs: '--build . --config Release'
